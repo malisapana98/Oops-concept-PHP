@@ -1,0 +1,91 @@
+         ***************************************** Introduction To Oops Programming *************************************************
+
+
+
+    OOP stands for Object-Oriented Programming.
+
+     Procedural programming is about writing procedures or functions that perform operations on the data, while object-oriented 
+     programming is about creating objects that contain both data and functions.
+
+   1) Object-oriented programming has several advantages over procedural programming:
+
+      1) OOP is faster and easier to execute
+      2) OOP provides a clear structure for the programs
+      3) OOP helps to keep the PHP code DRY "Don't Repeat Yourself", and makes the code easier to maintain, modify and debug
+      4) OOP makes it possible to create full reusable applications with less code and shorter development time
+ 
+
+  2) Class and Object
+
+     1) Class:=> 
+        A class is defined by using the class keyword, followed by the name of the class and a pair of curly braces ({}). 
+       All its properties and methods go inside the braces:
+       Syntax
+       <?php
+              class Fruit {
+
+                          }
+      ?>
+
+    2) Object:=>
+       Classes are nothing without objects! We can create multiple objects from a class. Each object has all the properties 
+       and methods defined in the class,but they will have different property values.
+
+       Objects of a class are created using the new keyword.
+
+
+      
+   3) Constructor
+
+     A constructor allows you to initialize an object's properties upon creation of the object.
+
+    If you create a __construct() function, PHP will automatically call this function when you create an object from a class.
+
+
+   4) Destructor
+
+     A destructor is called when the object is destructed or the script is stopped or exited.
+
+     If you create a __destruct() function, PHP will automatically call this function at the end of the script.
+
+
+
+  5) Access Modifiers
+
+     There are three access modifiers:
+
+    1) public - the property or method can be accessed from everywhere. This is default
+    2) protected - the property or method can be accessed within the class and by classes derived from that class
+    3) private - the property or method can ONLY be accessed within the class
+
+  6) Inheritance
+
+     Inheritance in OOP = When a class derives from another class.
+
+
+  7)  Abstract Classes
+
+     An abstract class is a class that contains at least one abstract method. An abstract method is a 
+     method that is declared, but not implemented in the code.
+
+
+  8) Interfaces
+   
+     Interfaces make it easy to use a variety of different classes in the same way. When one or more classes use the 
+     same interface, it is referred to as "polymorphism".
+
+
+  
+ 9) Traits
+
+    PHP only supports single inheritance: a child class can inherit only from one single parent.
+
+     So what if a class needs to inherit multiple behaviors? OOP traits solve this problem.
+
+    Traits are used to declare methods that can be used in multiple classes. Traits can have methods and abstract 
+
+    methods that can be used in multiple classes, and the methods can have any access modifier (public, private, or protected).
+
+
+
+10) 
